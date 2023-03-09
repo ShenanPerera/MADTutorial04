@@ -7,6 +7,14 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/edtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registartion"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
     <EditText
         android:id="@+id/edtName"
         android:layout_width="match_parent"
